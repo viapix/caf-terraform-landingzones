@@ -1,6 +1,6 @@
 module "solution" {
-  source = "git::https://github.com/viapix/terraform-azurerm-caf.git?ref=logic_app_fixes"
 
+  source = "git::https://github.com/viapix/terraform-azurerm-caf.git?ref=logic_app_fixes"
   providers = {
     azurerm.vhub = azurerm.vhub
   }

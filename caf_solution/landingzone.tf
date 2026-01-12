@@ -1,5 +1,5 @@
 module "solution" {
-  source = "git::https://github.com/viapix/terraform-azurerm-caf.git?ref=main"
+  source = "git::https://github.com/viapix/terraform-azurerm-caf.git?ref=logic_app_fixes"
   version = "5.7.13"
 
   providers = {
